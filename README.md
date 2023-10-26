@@ -1,38 +1,15 @@
-# Welcome to Remix!
+# Blog template
 
-- [Remix Docs](https://remix.run/docs)
+## Usage
 
-## Development
+<!-- #default-branch-switch -->
 
-From your terminal:
+1. Copy the files into your project, or one of the [example projects](https://github.com/mui/material-ui/tree/master/examples).
+2. Make sure your project has the required dependencies: @mui/material, @mui/icons-material, @emotion/styled, @emotion/react, markdown-to-jsx.
+3. Import and use the `Blog` component.
 
-```sh
-npm run dev
-```
+## Demo
 
-This starts your app in development mode, rebuilding assets on file changes.
+<!-- #default-branch-switch -->
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+View the demo at https://mui.com/material-ui/getting-started/templates/blog/.
